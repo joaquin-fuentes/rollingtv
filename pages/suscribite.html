@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Pagina de log in de RollingTV+" />
+    <meta name="keywords" content="Series, peliculas, tiempo libre" />
+    <meta name="Author1" content="Leandro Navarro" />
+    <meta name="Author2" content="Agustin Lobo" />
+    <meta name="Author3" content="Hildebrand Anthony Ariel" />
+    <meta name="Author4" content="Diaz Santilli Mauro" />
+    <meta name="Author5" content="Diaz Pablo Ismael" />
+    <meta name="Author6" content="Fuentes Joaquin Alberto" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="icon" type="imagen/png" href="../img/R.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <title>RollingTV+ Suscribite</title>
+  </head>
+  <body class="login-page">
+    <header class="barra-navegacion">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary bg-black navbar-dark">
+          <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html">
+                  <img src="../img/RollingTV+2.png" width="120" alt="logo de la pagina rollingtv+">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                  aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+  
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="error404.html">Mi perfil</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="peliculas.html">Peliculas</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="error404.html">Series</a>
+                  </li>
+                      <li class="nav-item dropdown text-white">
+                          <a class="nav-link dropdown-toggle btn mx-2" href="#" role="button" data-bs-toggle="dropdown"
+                              aria-expanded="false">
+                              Categorias
+                          </a>
+                          <ul class="dropdown-menu mx-2">
+                              <li><a class="dropdown-item" href="catAccion1.html">Accion y aventura</a></li>
+                              <li><a class="dropdown-item" href="catComedia1.html">Comedia</a></li>
+                          </ul>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link active btn btn-login mx-2 my-1" aria-current="page"
+                              href="login.html">Acceder</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link btn btn-suscribirse text-black mx-2 my-1"
+                              href="suscribite.html">Suscribirse</a>
+                      </li>
+                  </ul>
+                  <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                    <button class="btn btn-outline-danger" type="submit"><i class="bi-search"></i></button>
+                  </form>
+              </div>
+          </div>
+      </nav>
+  </header>
+
+    <main class="suscribite">
+      <h1>Peliculas, series y muchas cosas mas!</h1>
+      <h2>Disfruta donde quieras. Cancela cuando quieras.</h2>
+      <h1>Elige el mejor plan para ti</h1>
+
+      <section class="container mb-4">
+        <article class="row">
+          <aside
+            class="col-12 col-md-5 col-lg-3 card card-color-red my-3 mx-auto shadow p-3 rounded-3"
+          >
+            <div class="card-body">
+              <h4 class="card-title">Plan simple</h4>
+              <p class="card-text">
+                Desde <strong>$499</strong> pesos mensuales: 2 pantallas en
+                simultaneo
+              </p>
+              <p class="card-text"></p>
+              <div class="check">
+                <input type="radio" id="simple" name="plan" value="simple" />
+              </div>
+            </div>
+          </aside>
+
+          <aside
+            class="col-12 col-md-5 col-lg-3 card card-color-red my-3 mx-auto shadow p-3 rounded-3"
+          >
+            <div class="card-body">
+              <h4 class="card-title">Plan familiar</h4>
+              <p class="card-text">
+                Desde <strong>$699</strong> pesos mensuales: 4 pantallas en
+                simultaneo
+              </p>
+              <p class="card-text"></p>
+              <div class="check">
+                <input
+                  type="radio"
+                  id="familiar"
+                  name="plan"
+                  value="familiar"
+                />
+              </div>
+            </div>
+          </aside>
+
+          <aside
+            class="col-12 col-md-5 col-lg-3 card card-color-red my-3 mx-auto shadow p-3 rounded-3"
+          >
+            <div class="card-body">
+              <h4 class="card-title">Plan amigos</h4>
+              <p class="card-text">
+                Desde <strong>$999</strong> pesos mensuales: 10 pantallas en
+                simultaneo
+              </p>
+              <p class="card-text"></p>
+              <div class="check">
+                <input type="radio" id="amigos" name="plan" value="amigos" />
+              </div>
+            </div>
+          </aside>
+        </article>
+      </section>
+
+      <form action="./error404.html">
+        <input
+          class="col-10"
+          type="email"
+          name="name"
+          id="name"
+          minlength="7"
+          maxlength="50"
+          placeholder="Email"
+          autocomplete="off"
+          required
+        />
+        <input
+          class="col-10"
+          type="password"
+          name="name"
+          id="name"
+          minlength="7"
+          maxlength="50"
+          placeholder="Contraseña"
+          autocomplete="off"
+          required
+        />
+        <input
+          class="col-10"
+          type="text"
+          name="name"
+          id="name"
+          minlength="7"
+          maxlength="100"
+          placeholder="Nombre y Apellido"
+          autocomplete="off"
+          required
+        />
+        <input
+          class="col-10"
+          type="number"
+          name="name"
+          id="name"
+          minlength="3"
+          maxlength="5"
+          placeholder="Codigo postal"
+          autocomplete="off"
+          required
+        />
+        <input
+          class="col-10"
+          type="number"
+          name="name"
+          id="name"
+          minlength="10"
+          maxlength="15"
+          placeholder="Numero de celular"
+          autocomplete="off"
+          required
+        />
+        <input
+          class="col-10"
+          type="text"
+          name="name"
+          id="name"
+          minlength="7"
+          maxlength="70"
+          placeholder="Ciudad de residencia"
+          autocomplete="off"
+          required
+        />
+        <input class="col-10" type="submit" value="Crea tu cuenta ahora" />
+      </form>
+    </main>
+
+    <footer class="bg-black container-fluid text-secondary py-2 footer">
+      <section class="container-fluid">
+        <article id="log-redes-footer">
+          <figure>
+            <a href="../index.html"
+              ><img
+                src="../img/RollingTV+2.png"
+                width="110"
+                alt="logo RollingTv+"
+            /></a>
+          </figure>
+          <div class="text-center text-md-start ms-4">
+            <a href="error404.html"
+              ><i class="bi bi-twitter fs-6 text-secondary"></i
+            ></a>
+            <a href="error404.html" class="text-secondary mx-2"
+              ><i class="bi bi-instagram fs-6"></i
+            ></a>
+            <a href="error404.html"
+              ><i class="bi bi-facebook fs-6 text-secondary"></i
+            ></a>
+          </div>
+        </article>
+        <p>
+          ¿Preguntas? Llama al
+          <a
+            href="tel: 381000999111"
+            class="text-secondary text-decoration-none"
+            >381000999111</a
+          >
+        </p>
+        <article class="row mt-2">
+          <aside class="col-12 col-md-6 col-lg-3">
+            <h6>Navegación</h6>
+            <ul class="list-group-bg-dark ps-0 pt-1">
+              <li class="list-group-item">
+                <a class="nav-link" href="login.html">Login</a>
+              </li>
+              <li class="list-group-item">
+                <a class="nav-link" href="#">Suscribirse</a>
+              </li>
+              <li class="list-group-item">
+                <a class="nav-link" href="sobreNosotros.html">Sobre nosotros</a>
+              </li>
+              <li class="list-group-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </aside>
+          <aside class="col-12 col-md-6 col-lg-3">
+            <ul class="list-group-bg-dark ps-0 pt-1">
+              <li class="list-group-item">
+                <a class="nav-link" href="error404.html"
+                  >Preguntas frecuentes</a
+                >
+              </li>
+              <li class="list-group-item">
+                <a class="nav-link" href="error404.html"
+                  >Relaciones con inversionistas</a
+                >
+              </li>
+              <li class="list-group-item">
+                <a class="nav-link" href="error404.html">Privacidad</a>
+              </li>
+              <li class="list-group-item">
+                <a class="nav-link" href="https://fast.com/es/" target="_blank"
+                  >Prueba de velocidad</a
+                >
+              </li>
+            </ul>
+          </aside>
+          <aside class="col-12 col-md-6 col-lg-3">
+            <ul class="list-group-bg-dark ps-0 pt-1">
+              <li class="list-group-item">
+                <a class="nav-link" href="error404.html">Centro de ayuda</a>
+              </li>
+              <li class="list-group-item">
+                <a class="nav-link" href="error404.html">Empleo</a>
+              </li>
+              <li class="list-group-item">
+                <a class="nav-link" href="error404.html"
+                  >Preferencias de cookies</a
+                >
+              </li>
+              <li class="list-group-item">
+                <a class="nav-link" href="error404.html">Avisos legales</a>
+              </li>
+            </ul>
+          </aside>
+          <aside class="col-12 col-md-6 col-lg-3">
+            <ul class="list-group-bg-dark ps-0 pt-1">
+              <li class="list-group-item">
+                <a class="nav-link" href="error404.html">Cuenta</a>
+              </li>
+              <li class="list-group-item">
+                <a class="nav-link" href="error404.html">Formas de ver</a>
+              </li>
+              <li class="list-group-item">
+                <a class="nav-link" href="error404.html"
+                  >Informacion corporativa</a
+                >
+              </li>
+              <li class="list-group-item">
+                <a class="nav-link" href="error404.html">Solo en RollingTV+</a>
+              </li>
+            </ul>
+          </aside>
+        </article>
+      </section>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
