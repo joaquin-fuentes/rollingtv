@@ -17,3 +17,4 @@ Link de netlify : https://rollingtv.netlify.app/
 ### Autores 👣
 + Mauro Diaz Santilli [GitHub](https://github.com/MauroDiazSantilli)
 + Joaquin Alberto Fuentes [GitHub](https://github.com/joaquin-fuentes)
++ Navarro Leandro  [GitHub](https://github.com/NavarroLeandro)
